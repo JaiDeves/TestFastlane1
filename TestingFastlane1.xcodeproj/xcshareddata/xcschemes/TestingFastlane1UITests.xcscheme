@@ -9,14 +9,14 @@
          <BuildActionEntry
             buildForTesting = "YES"
             buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "18023A2422A027CA00C623BD"
-               BuildableName = "TestingFastlane1.app"
-               BlueprintName = "TestingFastlane1"
+               BlueprintIdentifier = "187F4C2F22A529470068F441"
+               BuildableName = "TestingFastlane1UITests.xctest"
+               BlueprintName = "TestingFastlane1UITests"
                ReferencedContainer = "container:TestingFastlane1.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,16 +32,6 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "18CB717C22A4EEDD00941FC6"
-               BuildableName = "TestingFastlane1Tests.xctest"
-               BlueprintName = "TestingFastlane1Tests"
-               ReferencedContainer = "container:TestingFastlane1.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
                BlueprintIdentifier = "187F4C2F22A529470068F441"
                BuildableName = "TestingFastlane1UITests.xctest"
                BlueprintName = "TestingFastlane1UITests"
@@ -49,15 +39,6 @@
             </BuildableReference>
          </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "18023A2422A027CA00C623BD"
-            BuildableName = "TestingFastlane1.app"
-            BlueprintName = "TestingFastlane1"
-            ReferencedContainer = "container:TestingFastlane1.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -71,16 +52,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "18023A2422A027CA00C623BD"
-            BuildableName = "TestingFastlane1.app"
-            BlueprintName = "TestingFastlane1"
+            BlueprintIdentifier = "187F4C2F22A529470068F441"
+            BuildableName = "TestingFastlane1UITests.xctest"
+            BlueprintName = "TestingFastlane1UITests"
             ReferencedContainer = "container:TestingFastlane1.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -90,16 +70,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "18023A2422A027CA00C623BD"
-            BuildableName = "TestingFastlane1.app"
-            BlueprintName = "TestingFastlane1"
+            BlueprintIdentifier = "187F4C2F22A529470068F441"
+            BuildableName = "TestingFastlane1UITests.xctest"
+            BlueprintName = "TestingFastlane1UITests"
             ReferencedContainer = "container:TestingFastlane1.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

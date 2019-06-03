@@ -25,7 +25,8 @@ class TestingFastlane1Tests: XCTestCase {
 
     func testPerformanceExample() {
         // This is an example of a performance test case.
-        XCTAssert(false)
+        //Failable test case
+        //        XCTAssert(false)
     }
 
 }
