@@ -1,0 +1,6 @@
+# app_identifier("vib.TestingFastlane1") # The bundle identifier of your app
+# apple_id("anil.bondada@ecoenergy.utc.com") # Your Apple email address
+
+
+# For more information about the Appfile, see:
+#     https://docs.fastlane.tools/advanced/#appfile
