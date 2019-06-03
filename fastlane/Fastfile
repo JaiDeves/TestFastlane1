@@ -19,7 +19,7 @@ platform :ios do
 
   desc "Runs all the tests"
   lane :test do
-    scan
+    scan(scheme:"TestingFastlane1")
   end
 
   desc "Create ipa"
@@ -27,17 +27,18 @@ platform :ios do
     gym
   end  
 
-
-  desc "Build"
-  lane :build do
-	  test
-	  scan
-  end 
   
   desc "Take screenshots"
   lane :screenshot do
     snapshot
   end
+
+  desc "Build"
+  lane :build do
+	  test
+    screenshot
+    create_ipa
+  end 
 
 end
  
