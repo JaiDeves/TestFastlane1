@@ -13,24 +13,28 @@
 # Uncomment the line if you want fastlane to automatically update itself
 # update_fastlane
 
-default_platform(: ios)
+default_platform(:ios)
 
-platform: ios do
+platform :ios do
 
   desc "Runs all the tests"
-  lane: test do
+  lane :test do
     scan
   end
 
   desc "Create ipa"
-  lane: create_ipa do
+  lane :create_ipa do
     gym
-  end
+  end  
+
 
   desc "Build"
-  lane: build do
-    test
-    scan
-  end
-
+  lane :build do
+	  test
+	  scan
+  end 
+  
 end
+ 
+
+
