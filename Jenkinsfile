@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Run Test') {
       steps {
-        sh 'fastlane test'
+        sh 'fastlane build'
       }
     }
   }
