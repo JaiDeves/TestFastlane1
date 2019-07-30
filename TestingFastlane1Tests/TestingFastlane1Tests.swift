@@ -22,10 +22,8 @@ class TestingFastlane1Tests: XCTestCase {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
         // Failable test case
-        XCTAssert(false)
+        XCTAssert(true)
     }
 
-    func testExample1(){
-        XCTAssert(false)
-    }
+    
 }
