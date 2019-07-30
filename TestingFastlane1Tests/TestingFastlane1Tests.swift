@@ -25,5 +25,7 @@ class TestingFastlane1Tests: XCTestCase {
         XCTAssert(false)
     }
 
-
+    func testExample1(){
+        XCTAssert(false)
+    }
 }
